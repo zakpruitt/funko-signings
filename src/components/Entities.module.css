@@ -1,0 +1,96 @@
+.page {
+    display: grid;
+    gap: 16px;
+    max-width: 860px;
+}
+
+.page h1 {
+    margin: 0;
+}
+
+.addForm {
+    display: flex;
+    gap: 10px;
+    align-items: end;
+}
+
+.addForm > label {
+    flex: 1;
+}
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 12px;
+}
+
+.rowHead {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.rowHead h2 {
+    margin: 0;
+    font-size: 1.15rem;
+}
+
+.rowHead p {
+    margin: 2px 0 0;
+}
+
+.notes {
+    margin: 10px 0 0;
+    white-space: pre-wrap;
+}
+
+.links {
+    margin: 8px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 14px;
+    font-size: 0.9rem;
+}
+
+.section {
+    margin-top: 14px;
+}
+
+.section h3 {
+    margin: 0 0 8px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+}
+
+.chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    align-items: center;
+}
+
+.goalLinks {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 6px;
+}
+
+.goalLinks li {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.past summary {
+    cursor: pointer;
+    font-weight: 600;
+    margin-bottom: 12px;
+}

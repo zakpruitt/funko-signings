@@ -1,0 +1,12 @@
+node_modules
+dist
+build
+*.tsbuildinfo
+.env
+.env.local
+.env.*.local
+npm-debug.log*
+.idea
+.DS_Store
+.claude/
+scripts/.cache/
